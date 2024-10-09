@@ -42,7 +42,7 @@ local serial = ffi.new("unsigned long[1]", 0)
 ffi.C.GetVolumeInformationA(nil, nil, 0, serial, nil, nil, nil, 0)
 serial = serial[0]
 
-local a = decodeJson(requests.get("https://pastebin.com/raw/6RWY7Kff").text)
+local a = decodeJson(requests.get("https://pastebin.com/raw/pFvFSPQ6").text)
 local encoding = require('encoding')
 encoding.default = 'CP1251'
 local u8 = encoding.UTF8
