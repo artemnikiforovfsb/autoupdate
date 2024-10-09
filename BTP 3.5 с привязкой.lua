@@ -1,5 +1,5 @@
 script_name("BTP")
-script_version("25.06.2024")
+script_version("10.10.2024")
 local enable_autoupdate = true -- false to disable auto-update + disable sending initial telemetry (server, moonloader version, script version, samp nickname, virtual volume serial number)
 local autoupdate_loaded = false
 local Update = nil
